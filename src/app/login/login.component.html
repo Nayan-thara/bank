@@ -1,0 +1,27 @@
+
+<h1 style="color: white; font-family:Georgia, 'Times New Roman', Times, serif; text-align:center; font-size: larger;" >{{aim}}</h1> 
+ <!-- string interpolation (_1) -->
+
+
+<div class="login-wrapper">
+    <form action="" class="form">
+      <h2>Login</h2>
+      <div class="input-group">
+        <input type="text" name="loginUser"  id="loginUser" required="">
+        <label for="acnum" >ACCOUNT NUMBER</label> 
+        <!-- <input type="text " [placeholder]="data"> property binding -->
+      </div>
+      <div class="input-group">
+        <input type="password" name="loginPassword" id="loginPassword" required="">
+        <label for="loginPassword">PASSWORD</label>
+      </div>
+      <a href="" class="signup">CREATE NEW ACCOUNT</a>
+      <!-- <button type="submit" (click)="login() " class="btn btn-danger">login</button>  //event binding -->
+     <button type="button" class="btn  p-2" (click)="login() ">LOGIN</button>
+      
+     
+    </form>
+  </div>
+
+  
+   

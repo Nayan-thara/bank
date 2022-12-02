@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url('./assets/wp6603148-banking-wallpapers.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  @media(orientation:portrait){
+    body{
+        background: cover;
+        background: linear-gradient(to right);
+    }
+  }
